@@ -148,6 +148,6 @@ function caculate(item)
     });
 }
 
-$.fn.gird = function () {
+$.fn.grid = function () {
     caculate($(this));
 }
