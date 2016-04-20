@@ -7,12 +7,11 @@
     var render = function () {
         var grids = $("div[data-role='grid']");
 
-        console.log(grids.length);
+        
 
         $.each(grids, function (index, item) {
             var offSetWidth = item.offsetLeft;
             var offSetHeight = item.offsetTop;
-
             var ele = $(item);
 
             ele.css({ "width": "100%", "height": "100%" });
@@ -128,9 +127,9 @@
                     for (var i = start; i < end; i++) {
                         max += array[i];
                     }
-                    console.log(max);
                     return max;
                 }
+
 
                 ii.css(
                     {
