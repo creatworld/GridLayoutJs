@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridLayoutJs", "GridLayoutJs\GridLayoutJs.csproj", "{D1287C16-80A7-4183-8F61-E1E7B464EDCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1287C16-80A7-4183-8F61-E1E7B464EDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1287C16-80A7-4183-8F61-E1E7B464EDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1287C16-80A7-4183-8F61-E1E7B464EDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1287C16-80A7-4183-8F61-E1E7B464EDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

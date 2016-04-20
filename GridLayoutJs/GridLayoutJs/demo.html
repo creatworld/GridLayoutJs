@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="Js/jquery.min.js"></script>
+    
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container" data-role="grid" data-columncount="1" data-rowcount="2" data-columndefine="*" data-rowdefine="*" style="background-color:blue;margin:10px">
+        <div data-row="0" data-column="0" style="background-color:green">
+            <div id="container1" data-role="grid" data-columncount="6" data-rowcount="6" data-columndefine="150,2*,3*,4*,5*,6*" data-rowdefine="*" style="background-color:blue;">
+                <div data-row="0" data-column="0" data-columnspan="1" data-rowspan="6" style=" background-color:yellow"></div>
+                <div data-row="1" data-column="1" style="background-color:green"></div>
+                <div data-row="2" data-column="2" style="background-color:red"></div>
+                <div data-row="3" data-column="3" style="background-color:red"></div>
+                <div data-row="4" data-column="4" style="background-color:red"></div>
+                <div data-row="5" data-column="5" style="background-color:red"></div>
+            </div>
+        </div>
+        <div data-row="1" data-column="0" style="background-color:red">
+            <div id="container2" data-role="grid" data-columncount="6" data-rowcount="6" data-columndefine="1*,2*,3*,4*,5*,6*" data-rowdefine="1*,2*,3*,4*,5*,6*" style="background-color:blue;">
+                <div data-row="0" data-column="0" data-columnspan="2" data-rowspan="6" style=" background-color:yellow"></div>
+                <div data-row="1" data-column="1" style="background-color:green"></div>
+                <div data-row="2" data-column="2" style="background-color:red"></div>
+                <div data-row="3" data-column="3" style="background-color:red"></div>
+                <div data-row="4" data-column="4" style="background-color:red"></div>
+                <div data-row="5" data-column="5" style="background-color:red"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Js/gridLayout.min.js"></script>
+</body>
+</html>
